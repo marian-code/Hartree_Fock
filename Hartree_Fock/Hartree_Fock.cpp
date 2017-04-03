@@ -13,8 +13,6 @@
 using namespace Eigen;
 using namespace std;
 
-//git zmena
-
 float Integral(VectorXf Wave_function, const float h_step, int i, const int matrix_size ) //pozor na const premenne  - neoverene spravanie!!!!
 {
 	int j, k;
