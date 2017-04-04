@@ -52,8 +52,8 @@ MatrixXf Hamiltonian_compute(VectorXf Wave_function, const float h_step, const i
 		{
 			if (j == k)
 			{
-				if (j == 0) Hamiltonian(j, k) = 2.0 / (h_step*h_step) - 4.0 / (h_step*j + h_step) - 2 * Integral(Wave_function, h_step, j, matrix_size); //toto nie je tak ako by malo byt indexy sú poposúvané
-				else Hamiltonian(j, k) = 2.0 / (h_step*h_step) - 4.0 / (h_step*j) - 2 * Integral(Wave_function, h_step, j, matrix_size);
+				if (j == 0) Hamiltonian(j, k) = 2.0 / (h_step*h_step) - 4.0 / (h_step*j + h_step) + 2 * Integral(Wave_function, h_step, j, matrix_size); //toto nie je tak ako by malo byt indexy sú poposúvané
+				else Hamiltonian(j, k) = 2.0 / (h_step*h_step) - 4.0 / (h_step*j) + 2 * Integral(Wave_function, h_step, j, matrix_size);
 			}
 			else if (j == k - 1) Hamiltonian(j, k) = -1.0 / (h_step*h_step);
 			else if (j == k + 1) Hamiltonian(j, k) = -1.0 / (h_step*h_step);
@@ -132,14 +132,14 @@ int main()
 
 	//initial wavefunction guess
 	for (i = 0; i < matrix_size; i++)
-		Wave_function(i) = h_step*i*exp((-1)*pow((i*h_step -0.98) / (double(matrix_size) / 1000.0), 2));
-		//Wave_function(i) = sin(pi*i / (matrix_size - 1));
+		//Wave_function(i) = h_step*i*exp((-1)*pow((i*h_step -0.98) / (double(matrix_size) / 1000.0), 2));
+		Wave_function(i) = sin(pi*i / (matrix_size - 1));
 
 	cout << "initial wavefunction is: " << endl << Wave_function << endl << endl;
 
 	//cyklus
 	i = 0;
-	while (i < 3)
+	while (i < 13)
 	{
 		time_cycle_start = chrono::high_resolution_clock::now();
 
@@ -178,7 +178,7 @@ int main()
 			}
 		}*/
 
-		cout << "Eigenvector with lowest eigenvalule is:" << endl << es.eigenvectors().col(iterator) << endl << endl;
+		//cout << "Eigenvector with lowest eigenvalule is:" << endl << es.eigenvectors().col(iterator) << endl << endl;
 		cout << "Lowest eigenvalue is:" << endl << es.eigenvalues()[iterator] << endl << endl;
 		//cout << "eigenvalues are: " << endl << es.eigenvalues() << endl << endl;
 
@@ -193,7 +193,7 @@ int main()
 		time_total_end = chrono::high_resolution_clock::now();
 		cout << "actuall iteration time: " << chrono::duration_cast<chrono::nanoseconds>(time_total_end - time_cycle_start).count()*10E-10 << "s" << endl;
 		cout << "total CPU time till now: " << chrono::duration_cast<chrono::nanoseconds>(time_total_end - time_total_start).count()*10E-10 << "s" << endl << endl;
-		cout << "iteration number is: " << i + 1 << endl;
+		cout << "end of iteration number: " << i + 1 << "!!!!!!!!!!" << endl;
 		i++;
 	}
 
