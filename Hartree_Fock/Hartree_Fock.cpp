@@ -121,7 +121,10 @@ int main()
 
 	cout << "delta epsilon: " << delta_epsilon << endl;
 	cout << "cut off: " << cut_off << endl;
-	cout << "space step: " << h_step << endl << endl;
+	cout << "space step: " << h_step << endl;
+
+	cout << "computing and diagonalizing hamiltonian in each step will take aproximatelly: " << 2 * 2.2222*10E-8*pow(matrix_size, 3) << "s" << endl << endl;
+	
 
 
 	//inicializacia casovych premennych
