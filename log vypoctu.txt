@@ -1,0 +1,249 @@
+delta epsilon: 0.0000001
+cut off: 14.0000000
+space step: 0.0035000
+computing and diagonalizing hamiltonian in each step will take aproximatelly: 28444.1600000s
+
+boundary conditions: 0.0000000  0.0000000
+start of iteration number: 1!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 20.1822457s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 40.5604044s
+
+Lowest eigenvalue is:-1.8982045
+difference of eigenvalues: 11.8982045
+
+boundary conditions: -0.0011627 0.0000000
+actuall iteration time: 60.7466699s
+total CPU time till now: 60.7484164s
+end of iteration number: 1!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 2!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 20.6108092s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 51.1453345s
+
+Lowest eigenvalue is:-0.8866706
+difference of eigenvalues: 1.0115339
+
+boundary conditions: -0.0009174 -0.0000000
+actuall iteration time: 71.7716489s
+total CPU time till now: 132.5220118s
+end of iteration number: 2!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 3!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 20.1403945s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 49.3328264s
+
+Lowest eigenvalue is:-1.0192511
+difference of eigenvalues: 0.1325805
+
+boundary conditions: -0.0009932 -0.0000000
+actuall iteration time: 69.4891054s
+total CPU time till now: 202.0151708s
+end of iteration number: 3!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 4!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 20.2411447s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 50.0378153s
+
+Lowest eigenvalue is:-0.9756618
+difference of eigenvalues: 0.0435893
+
+boundary conditions: -0.0009709 -0.0000000
+actuall iteration time: 70.2957163s
+total CPU time till now: 272.3148496s
+end of iteration number: 4!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 5!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 20.2029287s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 50.8964851s
+
+Lowest eigenvalue is:-0.9882263
+difference of eigenvalues: 0.0125645
+
+boundary conditions: -0.0009775 -0.0000000
+actuall iteration time: 71.1125414s
+total CPU time till now: 343.4313393s
+end of iteration number: 5!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 6!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 20.2010976s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 49.7721184s
+
+Lowest eigenvalue is:-0.9844476
+difference of eigenvalues: 0.0037787
+
+boundary conditions: -0.0009756 -0.0000000
+actuall iteration time: 69.9896059s
+total CPU time till now: 413.4244770s
+end of iteration number: 6!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 7!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 19.9071944s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 49.8691982s
+
+Lowest eigenvalue is:-0.9855701
+difference of eigenvalues: 0.0011225
+
+boundary conditions: -0.0009762 -0.0000000
+actuall iteration time: 69.7931396s
+total CPU time till now: 483.2217574s
+end of iteration number: 7!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 8!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 19.9510166s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 49.5990527s
+
+Lowest eigenvalue is:-0.9852354
+difference of eigenvalues: 0.0003347
+
+boundary conditions: -0.0009760 -0.0000000
+actuall iteration time: 69.5661236s
+total CPU time till now: 552.7918798s
+end of iteration number: 8!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 9!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 19.9771938s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 49.5352847s
+
+Lowest eigenvalue is:-0.9853351
+difference of eigenvalues: 0.0000997
+
+boundary conditions: -0.0009760 -0.0000000
+actuall iteration time: 69.5285628s
+total CPU time till now: 622.3241942s
+end of iteration number: 9!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 10!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 19.9561132s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 49.8359035s
+
+Lowest eigenvalue is:-0.9853054
+difference of eigenvalues: 0.0000297
+
+boundary conditions: -0.0009760 -0.0000000
+actuall iteration time: 69.8084921s
+total CPU time till now: 692.1362361s
+end of iteration number: 10!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 11!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 19.9645684s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 50.0130095s
+
+Lowest eigenvalue is:-0.9853143
+difference of eigenvalues: 0.0000088
+
+boundary conditions: -0.0009760 -0.0000000
+actuall iteration time: 69.9948915s
+total CPU time till now: 762.1351055s
+end of iteration number: 11!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 12!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 20.0427827s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 49.7114170s
+
+Lowest eigenvalue is:-0.9853116
+difference of eigenvalues: 0.0000026
+
+boundary conditions: -0.0009760 -0.0000000
+actuall iteration time: 69.7701162s
+total CPU time till now: 831.9087283s
+end of iteration number: 12!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 13!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 20.0018487s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 49.4061157s
+
+Lowest eigenvalue is:-0.9853124
+difference of eigenvalues: 0.0000008
+
+boundary conditions: -0.0009760 -0.0000000
+actuall iteration time: 69.4242658s
+total CPU time till now: 901.3370596s
+end of iteration number: 13!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 14!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 19.9685796s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 49.3452428s
+
+Lowest eigenvalue is:-0.9853122
+difference of eigenvalues: 0.0000002
+
+boundary conditions: -0.0009760 -0.0000000
+actuall iteration time: 69.3292968s
+total CPU time till now: 970.6698454s
+end of iteration number: 14!!!!!!!!!!!!!!!!!!!
+
+start of iteration number: 15!!!!!!!!!!!!!!!!!!!!!
+
+computing new hamiltonian...
+Hamiltoniam computed in: 20.0563344s
+
+diagonalizing hamiltonian...
+hamiltonian diagonalized sucesfully in: 49.3511104s
+
+Lowest eigenvalue is:-0.9853122
+difference of eigenvalues: 0.0000001
+
+boundary conditions: -0.0009760 -0.0000000
+actuall iteration time: 69.4252964s
+total CPU time till now: 1040.0985453s
+end of iteration number: 15!!!!!!!!!!!!!!!!!!!
+
+interakcna energia: 1.0254498
+energia HF orbitalu: -0.9853122
+total energy is: -2.9960743
